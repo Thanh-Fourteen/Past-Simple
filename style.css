@@ -1,0 +1,162 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+}
+
+.bai-tap {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bai-tap h3 {
+    margin-top: 0;
+}
+
+.bai-tap ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+}
+
+.bai-tap li {
+    margin-bottom: 0.5rem;
+}
+
+.structure-table {
+    margin-top: 1rem;
+}
+
+.structure-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.structure-table th, .structure-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#bai-tap input[type="text"],
+#bai-tap textarea {
+    width: calc(100% - 1rem); /* Chiều rộng 100% trừ đi padding */
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    resize: vertical; /* Cho phép thay đổi chiều cao của textarea */
+}
+
+#bai-tap button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#bai-tap button:hover {
+    background-color: #45a049;
+}
+
+#bai-tap #ket-qua-bai1,
+#bai-tap #ket-qua-bai2,
+#bai-tap #ket-qua-bai3,
+#bai-tap #ket-qua-bai4 {
+    margin-top: 0.5rem;
+}
+
+#bai-tap #dap-an-bai1,
+#bai-tap #dap-an-bai2,
+#bai-tap #dap-an-bai3,
+#bai-tap #dap-an-bai4 {
+    margin-top: 0.5rem;
+}
+
+footer {
+    display: flex; /* Sử dụng flexbox để căn chỉnh nội dung */
+    justify-content: center; /* Căn chỉnh nội dung theo chiều ngang */
+    align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Sử dụng left thay vì width để căn chỉnh */
+    right: 0; /* Sử dụng right để căn chỉnh */
+}
+.chữ-ký {
+    font-weight: bold;
+}
+
+#khi-nao-dung {
+    border-top: 1px solid #ddd;
+}
+
+#cau-truc {
+    border-top: 1px solid #eee;
+}
+
+#dau-hieu {
+    border-top: 1px solid #ccc;
+}
+
+#loi-sai-bai1, #loi-sai-bai2, #loi-sai-bai3, #loi-sai-bai4 {
+    color: red;
+    margin-top: 0.5rem;
+}
